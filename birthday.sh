@@ -1,8 +1,11 @@
 #!/bin/bash
 
-clear
-echo "🎉 HAPPY BIRTHDAY 🎉"
-echo ""
+while true
+do
+  clear
+  echo "🎉 HAPPY BIRTHDAY 🎉"
+  echo ""
+
 
 cat <<'EOF'
 ⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -53,4 +56,5 @@ cat <<'EOF'
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠛⠻⠒⠛⠛⣿⣅⣀⣀⣠⣤⡴⣟⣿⡤⣤⡤⠤⠶⠚⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 EOF
 
-echo ""
+  sleep 2
+done
